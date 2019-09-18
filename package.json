@@ -4,7 +4,8 @@
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint src/** test/** --fix",
-		"test": "jest"
+		"start": "node scr/Index.js",
+		"test": "jest --watch --verbose=true"
 	},
 	"license": "MIT",
 	"dependencies": {
